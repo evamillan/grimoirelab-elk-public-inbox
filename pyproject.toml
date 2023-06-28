@@ -19,7 +19,6 @@ keywords = [
 
 packages = [
     { include = "grimoire_elk_public_inbox" },
-    #{ include = "tests", format = "sdist" },
 ]
 
 include = [
@@ -46,8 +45,8 @@ public_inbox = 'grimoire_elk_public_inbox.utils:get_connectors'
 [tool.poetry.dependencies]
 python = "^3.7.1"
 
-grimoire-elk = { version = ">=0.102", allow-prereleases = true}
-perceval-public-inbox = { version = ">=0.1.0", allow-prereleases = true }
+grimoire-elk = { version = ">=0.106.0", allow-prereleases = true}
+perceval-public-inbox = { version = ">=0.1.1", allow-prereleases = true }
 
 
 [tool.poetry.group.dev.dependencies]
