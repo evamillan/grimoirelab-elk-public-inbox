@@ -72,7 +72,7 @@ jobs:
           DB_HOST: 127.0.0.1
           DB_PORT: ${{ job.services.mysql.ports[3306] }}
         run: |
-          mysql --host $DB_HOST --port $DB_PORT -uroot -proot test_projects < tests/test_projects.sql
+          mysql --host $DB_HOST --port $DB_PORT -uroot -proot -e "CREATE DATABASE test_sh"
 
       - name: Run Sortinghat Server
         run: |
