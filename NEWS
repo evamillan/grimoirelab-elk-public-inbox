@@ -1,5 +1,13 @@
 # Releases
 
+## grimoirelab-elk-public-inbox 0.1.3 - (2023-08-07)
+
+**Dependencies updateds:**
+
+ * Update dependencies\
+   Dependencies updated to support GrimoireLab 0.14.0.
+
+
 ## grimoirelab-elk-public-inbox 0.1.2 - (2023-07-24)
 
 **Dependencies updateds:**
